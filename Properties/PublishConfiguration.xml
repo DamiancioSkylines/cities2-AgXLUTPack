@@ -1,0 +1,86 @@
+﻿<Publish>
+	<!--ID must be set to update existed mod. it is not required to publish mod for the first time-->
+	<ModId Value="" />
+	<!-- Supported values Public, Private, Unlisted -->
+	<AccessLevel Value="Unlisted" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="AgX LUT Pack" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="LUT PACK FOR LUMINA" />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="LUT PACK FOR LUMINA" /-->
+	<LongDescription>
+AgX is tonemapper from Blender compared to ACES(vanilla) will have more graceful and clean rolloff to white.
+		
+### Quick Start &amp; Usage:
+1. Load your save game and open the Lumina menu and go to the *first tab*.
+2. Tick **ENABLE LUMINA VOLUME** else nothing will apply either preset or LUT.
+3. Scroll down and click **Import preset > Import File > type **AgX** > Click Import > Back > Close**
+4. Navigate to the "Tonemapping" tab (sun inside a square)
+5. Set the **Tonemapping Mode** to **External**
+6. Choose **LUT Texture** from the list e.g. **AgX - High Contrast**
+7. Ensure LUT Contribution is set to **1** else it will be clipping. Use adjustments instead to fine-tune later.
+9. Click **Load LUT**
+		
+When you customize preset further, save it as a *new* preset with different name.
+Loading a Lumina preset does NOT automatically load or apply the custom LUT file, loading preset changes Lumina's settings and sliders only.
+		
+### Extra Notes:
+- LUTs were cooked with configuration matching what game feeds and expects from external LUTs
+- Overall Post Exposure set to 0.5 to 0.85 is where I would set it.
+- Change everything to your liking from the base preset
+- Screenshots were taken with AgX preset.
+- **Latitude Longitude:** Preset sets it to the equator but if you were not using lumina to control it, but Time &amp; Weather anarchy there is no effect afaik.
+- **SSGI:** preset will not force it.
+- **SSAO:** preset will turn it on, and only options to control it further are inside Lumina.
+- **Contact Shadows:** presets will turn them off, I do not recommend them, only way to set them correctly without artefacts renders them redundant with SSAO.
+- **Road Textures:** Presets will turn them on, and change the settings, work well with default Lumina texture replacement.
+
+### LUT List:
+- **AgX - Base Contrast**
+- **AgX - Greyscale**
+- **AgX - High Contrast**
+- **AgX - Low Contrast**
+- **AgX - Medium High Contrast**
+- **AgX - Medium Low Contrast**
+- **AgX - Punchy**
+- **AgX - Very Low Contrast**
+- **AgX - Very High Contrast**
+		
+### Preset List:
+- **AgX**
+
+### Special Thanks
+**Nyoko**
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot can be set multiple times-->
+	<Screenshot Value="Properties/Screenshot02.png" />
+	<Screenshot Value="Properties/Screenshot03.png" />
+	<Screenshot Value="Properties/Screenshot04.png" />
+	<Screenshot Value="Properties/Screenshot05.png" />
+	<Screenshot Value="Properties/Screenshot06.png" />
+	<Screenshot Value="Properties/Screenshot07.png" />
+	<Screenshot Value="Properties/Screenshot08.png" />
+	<Screenshot Value="Properties/Screenshot09.png" />
+	<Screenshot Value="Properties/Screenshot10.png" />
+	<!--Tag can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/agx-lut-pack.1943088/" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.6.*" />
+	<!--Dependency for the mod can be set multiple times-->
+	<Dependency Id="94394" />
+	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog Value="Initial Release" />
+	<ChangeLog>
+- Initial
+	</ChangeLog>
+	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
+	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-AgXLUTPack" />
+	<ExternalLink Type="paypal" Url="https://www.paypal.com/donate/?hosted_button_id=8VN8P4VJDAKKA" />
+</Publish>
