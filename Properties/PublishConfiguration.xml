@@ -2,7 +2,7 @@
 	<!--ID must be set to update existed mod. it is not required to publish mod for the first time-->
 	<ModId Value="" />
 	<!-- Supported values Public, Private, Unlisted -->
-	<AccessLevel Value="Unlisted" />
+	<AccessLevel Value="Public" />
 	<!--Name of the mod to display to players-->
 	<DisplayName Value="AgX LUT Pack" />
 	<!--Short description of the mod-->
