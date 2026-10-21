@@ -8,8 +8,6 @@
   <HueShiftActive>true</HueShiftActive>
   <Saturation>50</Saturation>
   <SaturationActive>true</SaturationActive>
-  <Longitude>0</Longitude>
-  <Latitude>0</Latitude>
   <Temperature>0</Temperature>
   <TemperatureActive>true</TemperatureActive>
   <Tint>0</Tint>
@@ -23,33 +21,8 @@
   <LUTContribution>1</LUTContribution>
   <LUTContributionOverrideState>true</LUTContributionOverrideState>
   <LUTName>AgX - High Contrast</LUTName>
-  <TimeOfDayLocked>false</TimeOfDayLocked>
   <TonemappingMode>External</TonemappingMode>
-  <SceneFlowCheckerEnabled>false</SceneFlowCheckerEnabled>
-  <ToeStrengthActive>false</ToeStrengthActive>
-  <ToeStrengthValue>0</ToeStrengthValue>
-  <ToeLengthActive>false</ToeLengthActive>
-  <ToeLengthValue>0</ToeLengthValue>
-  <shoulderStrengthActive>false</shoulderStrengthActive>
-  <shoulderStrengthValue>0</shoulderStrengthValue>
-  <shoulderLengthActive>false</shoulderLengthActive>
-  <shoulderAngleActive>false</shoulderAngleActive>
-  <shoulderAngleValue>0</shoulderAngleValue>
-  <TonemappingGammaActive>false</TonemappingGammaActive>
-  <TonemappingGammaValue>0</TonemappingGammaValue>
-  <SaveAutomatically>true</SaveAutomatically>
-  <CubemapName>none</CubemapName>
-  <spaceEmissionMultiplier>1000</spaceEmissionMultiplier>
-  <HDRISkyEnabled>false</HDRISkyEnabled>
-  <CustomSunEnabled>false</CustomSunEnabled>
-  <AngularDiameter>0.533</AngularDiameter>
-  <SunIntensity>100</SunIntensity>
-  <SunFlareSize>0</SunFlareSize>
-  <ReloadAllPackagesOnRestart>false</ReloadAllPackagesOnRestart>
   <LuminaVolumeEnabled>true</LuminaVolumeEnabled>
-  <LatLongEnabled>false</LatLongEnabled>
-  <MetroEnabled>false</MetroEnabled>
-  <ViewTimeOfDaySlider>false</ViewTimeOfDaySlider>
   <RoadTextureSmoothness>1.5</RoadTextureSmoothness>
   <TextureBrightness>0</TextureBrightness>
   <TextureOpacity>0.75</TextureOpacity>
@@ -66,11 +39,6 @@
     <b>1</b>
     <a>1</a>
   </SecondaryRoadColor>
-  <EnableDebugLogs>false</EnableDebugLogs>
-  <SafeMode>false</SafeMode>
-  <PerformanceMode>false</PerformanceMode>
-  <IsSSGIInterventionEnabled>false</IsSSGIInterventionEnabled>
-  <IsContactShadows>false</IsContactShadows>
   <IsScreenSpaceAmbientOcclusion>true</IsScreenSpaceAmbientOcclusion>
   <AmbientOcclusionMaxRadiusInPixels>0</AmbientOcclusionMaxRadiusInPixels>
   <AmbientOcclusionRadius>16</AmbientOcclusionRadius>
@@ -95,14 +63,4 @@
   <AmbientOcclusionSampleCount>0</AmbientOcclusionSampleCount>
   <AmbientOcclusionDenoise>false</AmbientOcclusionDenoise>
   <AmbientOcclusionDenoiserRadius>0.1</AmbientOcclusionDenoiserRadius>
-  <UpdateNotification>false</UpdateNotification>
-  <ContactShadowsLength>1</ContactShadowsLength>
-  <ContactShadowsMaxDistance>60</ContactShadowsMaxDistance>
-  <ContactShadowsMinDistance>0.1</ContactShadowsMinDistance>
-  <ContactShadowsThicknessScale>0.05</ContactShadowsThicknessScale>
-  <ContactShadowsDistanceScaleFactor>1</ContactShadowsDistanceScaleFactor>
-  <ContactShadowsOpacity>1</ContactShadowsOpacity>
-  <ContactShadowsRayBias>0.01</ContactShadowsRayBias>
-  <ContactShadowsFadeDistance>20</ContactShadowsFadeDistance>
-  <ContactShadowsFadeInDistance>0</ContactShadowsFadeInDistance>
 </GlobalVariables>
