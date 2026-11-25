@@ -39,7 +39,7 @@ namespace AgXLUTPack.Initializer
 
                 foreach (var resourceName in resourceNames)
                 {
-                    Mod.log.Debug($"Validating resource '{resourceName}'.");
+                    //Mod.log.Debug($"Validating resource '{resourceName}'.");
                     // Check if the resource belongs to the correct namespace
                     if (resourceName.StartsWith(resourceNamespace))
                     {

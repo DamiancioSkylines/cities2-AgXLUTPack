@@ -12,7 +12,7 @@ namespace AgXLUTPack.Initializer
 
         public void OnLoad(UpdateSystem updateSystem)
         {
-            log.Info(nameof(OnLoad));
+            //log.Info(nameof(OnLoad));
 
             // if (GameManager.instance.modManager.TryGetExecutableAsset(this, out var asset))
                 // log.Info($"Current mod asset at {asset.path}");

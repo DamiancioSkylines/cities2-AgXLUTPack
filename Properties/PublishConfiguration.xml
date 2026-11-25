@@ -70,7 +70,7 @@ Loading a Lumina preset does NOT automatically load or apply the custom LUT file
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/agx-lut-pack.1943088/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.1" />
+	<ModVersion Value="1.0.2" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.6.*" />
 	<!--Dependency for the mod can be set multiple times-->
@@ -78,8 +78,7 @@ Loading a Lumina preset does NOT automatically load or apply the custom LUT file
 	<!--Change log for a new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog Value="" />
 	<ChangeLog>
-- Cleared redundant tags from presets
-- Removed forced sun intensity that could cause severe overexposure
+- Reduced logs
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/DamiancioSkylines/cities2-AgXLUTPack" />
